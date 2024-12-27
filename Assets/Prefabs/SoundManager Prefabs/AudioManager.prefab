@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &956396511090858703
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 956396511090858697}
+  - component: {fileID: 956396511090858702}
+  - component: {fileID: 847322761}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &956396511090858697
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956396511090858703}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &956396511090858702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956396511090858703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfd70007814e9b344910deab3dff8500, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: MenuMusic
+    clip: {fileID: 8300000, guid: 5a845263515c7d44ba610dfc22d1c35a, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - name: Death
+    clip: {fileID: 8300000, guid: 158dc2731193aa2418797613bad2ff19, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: GameOver1
+    clip: {fileID: 8300000, guid: 8d571f109e13a7b47a4eb121b10b4f36, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: IceBreak
+    clip: {fileID: 8300000, guid: a3c11c162cd6afa4593e5851ac02362a, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Land
+    clip: {fileID: 8300000, guid: 8ed3a3ab42c1f8e44af678f951472196, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Click
+    clip: {fileID: 8300000, guid: 158dc2731193aa2418797613bad2ff19, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Music1
+    clip: {fileID: 8300000, guid: 1426397f7f1bb1347b681a7c6b1c38be, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - name: Music2
+    clip: {fileID: 8300000, guid: 75e26acaed7feee48b65263316e89ee0, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - name: Music3
+    clip: {fileID: 8300000, guid: b9a640baf6e5a1840843bbf3528a9ae9, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - name: Music4
+    clip: {fileID: 8300000, guid: 673844232cea936468bea4524bf41a63, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - name: Music5
+    clip: {fileID: 8300000, guid: aaa62602bf5e16c469933bf9f0b3786c, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - name: Music6
+    clip: {fileID: 8300000, guid: 6488b506e0d516a4da83bc035b29e07b, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - name: Music7
+    clip: {fileID: 8300000, guid: f8ca9db9c8176fc4ca4c928825296516, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - name: Music8
+    clip: {fileID: 8300000, guid: a1988f8ede3955a44857fcf239b5a3bb, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - name: Music9
+    clip: {fileID: 8300000, guid: 428cac5658961fd43af174ec8a1f5964, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - name: Music10
+    clip: {fileID: 8300000, guid: 25d1c383935a889428905a578cfef4ae, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - name: Music11
+    clip: {fileID: 8300000, guid: 33f2e4dd4ee2f3d499d167f97c6f14e7, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - name: Music12
+    clip: {fileID: 8300000, guid: d7656fda4bbcfa84885d2b7ccefdf684, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - name: Music13
+    clip: {fileID: 8300000, guid: cf27e00883cc19348934b753d546f69f, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - name: Music14
+    clip: {fileID: 8300000, guid: 75d5dff46c48cb442b9f41e33284322c, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  isPlayingMusic: 0
+  isPlayingGameOver: 0
+--- !u!81 &847322761
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956396511090858703}
+  m_Enabled: 1
